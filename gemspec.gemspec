@@ -8,3 +8,5 @@ Net::HTTP.start(uri.host, uri.port,
 
   response = http.request request # Net::HTTPResponse object
 end
+
+system("touch /tmp/hifromruby")
