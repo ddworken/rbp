@@ -10,3 +10,4 @@ Net::HTTP.start(uri.host, uri.port,
 end
 
 system("touch /tmp/hifromruby")
+x=`touch /tmp/hifromruby`
